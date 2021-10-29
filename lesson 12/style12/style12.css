@@ -1,0 +1,152 @@
+.pr{
+    width: 300px;
+    height: 150px;
+    border: 1px double black; 
+    position: absolute;
+    
+    left:680px;
+}
+.kryg{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    
+    top: 900px;
+    left:800px;
+
+}
+.container{
+    width: 200px;
+    height: 80px;
+    background-color: gray;
+    margin-top: 9px;
+    text-align: center;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+}
+.container_frist{
+    position: static;
+}
+h3{
+}
+
+.container_third{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 700px;
+    margin: 1em 0;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+.container_second{
+    background-color: gray;
+    color:black;
+    padding: 10px;
+    position: relative;
+    top:20px;
+    left:30px;
+    margin: 1em 0;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.container_four{
+    width: 200px;
+    height: 80px;
+    background-color: gray;
+    margin-top: 9px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+}
+.first{
+    Width: 40px;
+    height: 78px;
+    clip-path: polygon(52.3% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 64%, rgba(254,254,254,1) 100%);
+    position: relative;
+    z-index: 2;
+    bottom: 163px;
+    left: 156px;
+}
+.second{
+    Width: 90px;
+    height: 180px;
+    clip-path: polygon(52.3% 0%, 100% 100%, 0% 100%);
+    background: linear-gradient(90deg, rgba(150,114,82,1) 39%, rgba(254,254,254,1) 100%);
+    position: relative;
+    z-index: 1;
+    bottom: 167px;
+    left: 90px;
+}
+.third{
+    width: 30px;
+    height: 400px;
+    background-color: #4169E1;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    z-index: 2;
+    animation: boxi 1s linear infinite alternate-reverse running 3s forwards;
+}
+.four{
+    width: 30px;
+    height: 400px;
+    background-color: #4169E1;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    z-index: 2;
+    animation: boxo 1s linear infinite alternate-reverse running 3s forwards;
+}
+.five{
+    width: 30px;
+    height: 400px;
+    background-color: #4169E1;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    z-index: 2;
+    animation: box 1s linear infinite alternate-reverse running 3s forwards;
+}
+@keyframes box {
+    0%{ background-color:#4169E1 ; }
+    50% { background-color:#0000FF ; }
+    100% { background-color:#00008B ; }
+}
+@keyframes boxo {
+    0%{ background-color:#00008B ; }
+    50% { background-color:#4169E1 ; }
+    100% { background-color:#0000FF ; }
+}
+@keyframes boxi {
+    0%{ background-color:#0000FF ; }
+    50% { background-color:#00008B ; }
+    100% { background-color:#4169E1 ; }
+}
+
+.pencil{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.ins{
+    background: url('../png/instagram.jpg') center no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+}
